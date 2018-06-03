@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "671120426284",
+    "firebase_url": "https://my-ride-27189.firebaseio.com",
+    "project_id": "my-ride-27189",
+    "storage_bucket": "my-ride-27189.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671120426284:android:00a795f7862a8fd7",
+        "android_client_info": {
+          "package_name": "com.circle.prana.myride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671120426284-kurv13e0fpu806p0e1beo0n26m8eatca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.circle.prana.myride",
+            "certificate_hash": "5b9ead59489027b5c32b3bfefae7cc6284ebef29"
+          }
+        },
+        {
+          "client_id": "671120426284-693btddjd5flpjf26doueghlkotvpe3v.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "671120426284-693btddjd5flpjf26doueghlkotvpe3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB67FTurbJWfhA0UWrqELKz85dOfnpIuXY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671120426284-693btddjd5flpjf26doueghlkotvpe3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
