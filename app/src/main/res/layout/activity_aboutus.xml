@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        android:orientation="vertical"
+        tools:context=".navmenu.Aboutus">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/layout_background"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="@dimen/small_text"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/aboutUsZahabia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:text="My Ride"
+                        android:textColor="@color/colorheading"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/aboutUsCity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:gravity="center"
+                        android:text="Circle Co."
+                        android:textColor="@color/colorheading"
+                        android:textSize="@dimen/button_text" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/welcome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Welcome to"
+                        android:textColor="@color/colorheading"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/welcomeZahabia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="My Ride"
+                        android:textColor="@color/colorheading"
+                        android:textSize="30dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/pera1"
+                    style="@style/extraSmallText"
+                    android:layout_width="340dp"
+                    android:textColor="@color/colorSmallText" />
+
+                <TextView
+                    android:id="@+id/aboutUsHeading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="Best Taxi App"
+                    android:textColor="@color/colorheading"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/pera2"
+                    style="@style/extraSmallText"
+                    android:layout_width="340dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/colorSmallText" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>

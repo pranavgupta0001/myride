@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        android:orientation="vertical"
+        tools:context=".navmenu.ContactUs">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="18dp"
+                    android:src="@drawable/contact_us" />
+
+                <TextView
+                    android:id="@+id/contacth2"
+                    style="@style/ContactText"
+                    android:text="Contact Us" />
+
+                <TextView
+                    android:id="@+id/contactAddress"
+                    style="@style/extraSmallText"
+                    android:layout_width="320dp"
+                    android:text="Circle Co." />
+
+                <TextView
+                    android:id="@+id/contactEmail"
+                    style="@style/ContactText"
+                    android:text="General Enquiries" />
+
+                <TextView
+                    android:id="@+id/contactid"
+                    style="@style/extraSmallText"
+                    android:text="pranavgupta0001@hotmail.com" />
+
+                <TextView
+                    android:id="@+id/contactphone"
+                    style="@style/ContactText"
+                    android:text="Telephone" />
+
+                <TextView
+                    android:id="@+id/contactNumber"
+                    style="@style/extraSmallText"
+                    android:text="M: +1 (647) 549 1352" />
+
+                <TextView
+                    android:id="@+id/contacthour"
+                    style="@style/ContactText"
+                    android:text="Working Hours" />
+
+                <TextView
+                    android:id="@+id/contactweek"
+                    style="@style/extraSmallText"
+                    android:text="Saturday- Sunday" />
+
+                <TextView
+                    android:id="@+id/visittime"
+                    style="@style/extraSmallText"
+                    android:text="10:00am-9:00pm" />
+
+                <TextView
+                    android:id="@+id/contactweekend"
+                    style="@style/extraSmallText"
+                    android:text="Monday- Friday" />
+
+                <TextView
+                    android:id="@+id/visittime2"
+                    style="@style/extraSmallText"
+                    android:text="24 hours" />
+
+                <TextView
+                    android:id="@+id/social"
+                    style="@style/ContactText"
+                    android:text="Socials" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="28dp"
+                        android:background="@color/colorBackground"
+                        android:src="@drawable/icon_facebook" />
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="28dp"
+                        android:background="@color/colorBackground"
+                        android:src="@drawable/icon_twitter" />
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="28dp"
+                        android:background="@color/colorBackground"
+                        android:src="@drawable/icon_linkedin" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/message_us"
+                            android:layout_width="70dp"
+                            android:layout_height="90dp"
+                            android:src="@drawable/message_us" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="3dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/call_us"
+                            android:layout_width="70dp"
+                            android:layout_height="90dp"
+                            android:src="@drawable/call_us" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>

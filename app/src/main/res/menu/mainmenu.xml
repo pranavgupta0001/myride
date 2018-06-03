@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_sign_out"
+        android:icon="@drawable/icon_logout"
+        android:title="Sign Out" />
+
+
+    <item
+        android:id="@+id/nav_home"
+
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/navigation_share_icon"
+        android:title="Share" />
+    <item
+        android:id="@+id/nav_rating"
+        android:icon="@drawable/navigation_rate_us"
+        android:title="Rate Us" />
+
+    <item
+        android:id="@+id/nav_about_us"
+        android:icon="@drawable/navigation_about_us"
+        android:title="About Us" />
+
+    <item
+        android:id="@+id/nav_contact_us"
+        android:icon="@drawable/navigation_message_us"
+        android:title="Contact Us" />
+    <item
+        android:id="@+id/nav_help_feedback"
+        android:icon="@drawable/icon_logout"
+        android:title="Help &amp; Feedback" />
+    <item
+        android:id="@+id/nav_terms"
+        android:icon="@drawable/icon_logout"
+        android:title="Terms of Service" />
+
+</menu>
